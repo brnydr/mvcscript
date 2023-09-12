@@ -12,6 +12,10 @@ touch NewProject.csproj
 mkdir Models
 mkdir Controllers
 mkdir Views
+mkdir Properties
+cd Properties
+touch launchSettings.json
+cd ..
 cd Controllers
 touch HomeController.cs
 cd ..
